@@ -2,7 +2,7 @@ require("dotenv").config();
 
 const msTenantId = process.env.MS_TENANT_ID;
 const msClientId = process.env.CLIENT_ID;
-const msClientSecret = pprocess.env.CLIENT_SECRE;
+const msClientSecret = process.env.CLIENT_SECRET;
 const msUUID = process.env.MS_UUID;
 const fmServer = process.env.FM_SERVER;
 const fmApiUrl = "/fmi/data/v1/databases/";
